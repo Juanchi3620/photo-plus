@@ -1,12 +1,16 @@
 {
   "name": "photo-plus",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "version": "1.0.0",
+  "description": "The photo-plus allows you to take pictures using your camera and download them to the folder on your local machine.",
   "strapi": {
     "name": "photo-plus",
-    "description": "Description of Photo Plus plugin",
+    "description": "The photo-plus allows you to take pictures using your camera and download them to the folder on your local machine.",
     "kind": "plugin",
     "displayName": "Photo Plus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Juanchi3620/photo-plus.git"
   },
   "dependencies": {
     "@strapi/design-system": "^1.6.3",
@@ -27,11 +31,13 @@
     "styled-components": "^5.2.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Juanchi Franco",
+    "email": "francovargasjuandario@gmail.com"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "Juanchi Franco",
+      "email": "francovargasjuandario@gmail.com"
     }
   ],
   "engines": {
