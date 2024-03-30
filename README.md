@@ -5,6 +5,7 @@ The photo-plus allows you to take pictures using your camera and download them t
 
 The photo-plus plugin allows Strapi users to take and download photos to their local folders using the browser's camera.
 
+
 # Installation
 
 To install this plugin, you need to add an NPM dependency to your Strapi application:
@@ -25,3 +26,22 @@ yarn build
 # Or using NPM
 npm run build
 ```
+
+# Configuration
+
+```
+./config/plugins.js
+```
+
+```
+module.exports = ({ env }) => ({
+  // ...
+
+  photo-plus: {
+    enabled: true,
+  },
+  
+  // ...
+});
+```
+
