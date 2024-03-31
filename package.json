@@ -1,6 +1,6 @@
 {
   "name": "photo-plus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The photo-plus allows you to take pictures using your camera and download them to the folder on your local machine.",
   "strapi": {
     "name": "photo-plus",
